@@ -4,11 +4,11 @@ using System.Text;
 
 namespace HW5_module3
 {
-    internal class Program
+    public class Program
     {
-        public static async void Main(string[] args)
+        public static void Main(string[] args)
         {
-           await Starer.Start();
+            Starer.Start();
         }
     }
 }

@@ -8,7 +8,7 @@ namespace HW5_module3
 {
     internal class Starer
     {
-        public static async Task Start()
+        public static async void Start()
         {
             var concatenatedText = await ConcatenateFilesAsync(@"C:\Users\vladn\c#\HW5_module3\Hello.txt", @"C:\Users\vladn\c#\HW5_module3\World.txt");
 
