@@ -1,10 +1,14 @@
-﻿namespace HW5_module3
+﻿using System.Net.WebSockets;
+using System.Security.Cryptography.X509Certificates;
+using System.Text;
+
+namespace HW5_module3
 {
-    internal class Program
+    public class Program
     {
-        static void Main(string[] args)
+        public static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            Starer.Start();
         }
     }
 }
